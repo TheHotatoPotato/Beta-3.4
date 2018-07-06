@@ -1,0 +1,134 @@
+/* Global Attributes */
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    background-image: url("../../..background and logo/background.png");
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+a {
+    font-size: 19px;
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+#main-header {
+    position: fixed;
+}
+
+h4 {
+    font-size: 19px;
+}
+
+#box-1, #box-2, #box-3, #box-4 h4 {
+    font-size: 19px;
+}
+
+/* Logo And Navigation */
+#main-header {
+    width: 100%
+}
+
+#main-header {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: #000;
+    padding-bottom: 2px;
+    min-height: 90px;
+}
+
+#main-header #branding {
+    width: 40%;
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    margin-left: 10px;
+}
+
+#main-header #navbar {
+    width: 43%;
+    margin: auto;
+    float: right;
+    margin-top: 18px;
+}
+
+#main-header #navbar ul {
+    float: right;
+    margin-right: -60px;
+}
+
+#main-header #navbar a {
+    float: left;
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    padding-right: 20px;
+}
+
+#main-header #navbar li {
+    display: inline;
+    list-style-type: none;
+    padding: 0px 20px 0px 20px;
+}
+
+/* Landing Page Formatting */
+#image {
+    margin-top: 20px;
+    width: 100%;
+    float: left;
+}
+
+#image img {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    border-radius: 10px;
+    border: 1px solid #000;
+}
+
+#image h4, #image p {
+    margin: 0px;
+    font-size: 18px;
+    width: 100%;
+}
+
+#image h4 {
+    font-size: 30px;
+    padding-top: 11px;
+    padding-bottom: 11px;    
+}
+
+/* Footer */
+/* Footer Styles */
+#main-footer {
+    margin-top: 100px;
+    width: 100%;
+    border-top: 2px solid #000;
+    background-color: black;
+    color: #fff;
+}
+
+#footer-copyright {
+    width: 100%;
+    float: left;
+    background-color: #000;
+}
+
+#footer-copyright h3 {
+    margin-left: auto;
+    margin-top: 20px;
+    text-align: center;
+}
